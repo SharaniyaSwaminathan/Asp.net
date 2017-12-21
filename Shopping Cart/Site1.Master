@@ -1,0 +1,30 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.Master.cs" Inherits="Shopping_Cart.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+       
+ <div style="text-align:center;font-size:50px;color:blue">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+         <asp:Label ID="Label1" runat="server" Text="Shaaru's Shopping Cart" Font-Italic="True" Font-Bold="True">
+
+         </asp:Label>
+            </asp:ContentPlaceHolder>      
+    </div>
+       
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+
+        </asp:ContentPlaceHolder>
+        <div style="text-align:center;font-size:30px;color:blue">
+            © Copyrights Shaaru&#39;s 
+        </div>
+    </form>
+</body>
+</html>
